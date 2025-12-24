@@ -7,12 +7,23 @@
 /bazel-out
 
 # Node
-/node_modules
+node_modules/
 npm-debug.log
 yarn-error.log
 
+# Angular - more specific patterns
+**/.angular/
+**/angular-ecommerce/.angular/
+angular-ecommerce/.angular/**
+angular-ecommerce/node_modules/
+angular-ecommerce/dist/
+angular-ecommerce/tmp/
+angular-ecommerce/out-tsc/
+angular-ecommerce/bazel-out/
+
 # IDEs and editors
 .idea/
+.vscode/
 .project
 .classpath
 .c9/
